@@ -158,16 +158,22 @@ input {
 }
 
 
-.intro img {
+.imagen_intro--nosotros img {
     width: 100%;
+    height: 40vh;
     border-color: whitesmoke;
     border: solid;
     border-radius: 1rem;
     color: whitesmoke;
 }
 
-.row {
-    margin-top: 2%;
+.imagen_intro--menu img {
+    width: 100%;
+    height: 40vh;
+    border-color: whitesmoke;
+    border: solid;
+    border-radius: 1rem;
+    color: whitesmoke;
 }
 
 .col-xl-6 {
@@ -175,11 +181,6 @@ input {
     text-align: center;
 }
 
-.col-xl-6 h2 {
-    text-align: center;
-    color: antiquewhite;
-    font-size: 2rem;
-}
 
 .col-xl-6 a {
     text-decoration: none;
@@ -190,20 +191,22 @@ input {
     color: green;
 }
 
-
-.contenedorMenu {
+.contenedor_menu--intro {
     margin-left: 10%;
     width: 75%;
-    margin-top: 1%;
+    margin-top: 2%;
     color: antiquewhite;
 }
 
-.contenedorMenu p {
+.contenedor_menu--intro p {
     margin-top: 2%;
 }
 
-.contenedorMenu h3 {
-    margin-top: 5%;
+.contenedor_menu--cards {
+    margin-left: 10%;
+    width: 75%;
+    margin-top: 2%;
+    color: antiquewhite;
 }
 
 .especiales {
@@ -214,16 +217,32 @@ input {
     margin-top: 2%;
 }
 
+.card-body {background-color: black;
+            border-top: solid;
+            border-color: antiquewhite;}
+
+.promo_miembro {
+    text-align: center;
+}
+
+.card_container {
+    border: solid;
+    color: white;
+}
+
 .card-prize {
     color: darkgreen;
+    text-align: center;
 }
 
 .card-title {
-    color: black;
+    color: whitesmoke;
+    text-align: center;
 }
 
 .card-text {
-    color: black;
+    color: whitesmoke;
+    text-align: center;
 }
 
 .objetivo p {
@@ -372,7 +391,7 @@ footer {
     justify-content: center;
 }
 
-footer h3 {
+footer h4 {
     color: white;
     text-align: center;
     opacity: 0.8;
